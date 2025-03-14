@@ -55,7 +55,7 @@ a{
     text-decoration-skip-ink: none;
 }
 .medio-bars{
-    width: 70px;
+    width:50px;
     height: 35px;
     position: relative;
     cursor: pointer;
@@ -126,8 +126,8 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 4rem;
-    padding-bottom: 6rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 .baner-lable{
     width: 50%;
@@ -224,6 +224,10 @@ a{
         padding-left: 3rem;
         padding-right: 3rem;
     }
+    .mean{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
 }
 @media only screen and (max-width:1372px) {
     .baner-lable-2{
@@ -251,10 +255,116 @@ a{
         width: 100%;
     }
 }
+
+/* main */
+.mean{
+    width: 100%;
+    height: fit-content;
+    padding-top: 4rem;
+    text-align: center;
+    padding-left:135px;
+    padding-right: 135px;
+}
+.patern{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+.patern-lable{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.patern-lable-1{
+    font-family: Work Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(116, 198, 157, 1);
+    margin-bottom: 1rem;
+}
+.patern-lable-2{
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 1);
+}
+.patern-lable-3{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+    color:#222;
+}
+.patern-in{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:  1.5rem;
+    justify-content: space-evenly;
+}
+.patern-buttun{
+    margin-top: 2rem;
+}
+.patern-buttun a{
+    padding: 14px 35px;
+    background-color: #222;
+    color: #fff;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1438px) {
+    .hader{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .mean{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
 @media only screen and (max-width:450px) {
     .hader{
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    .mean{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
-/* main */
