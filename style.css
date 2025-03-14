@@ -127,7 +127,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-bottom: 9rem;
 }
 .baner-lable{
     width: 50%;
@@ -260,7 +260,7 @@ a{
 .mean{
     width: 100%;
     height: fit-content;
-    padding-top: 4rem;
+    padding-top: 7rem;
     text-align: center;
     padding-left:135px;
     padding-right: 135px;
@@ -329,12 +329,108 @@ a{
     letter-spacing: 0px;
     text-align: center;
 }
+/* group */
+.group{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    padding-top: 5rem;
+}
+.group-blog-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+.group-img{
+    width: 50%;
+}
+.group-img img{
+    width: 100%;
+}
+.group-lable{
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 1.5rem;
+}
+.group-lable-1{
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    color: rgba(33, 37, 41, 1);
+    text-align: start;
+}
+.group-lable-2{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    color: rgba(33, 37, 41, 0.5);
+    text-align: start
+}
+.group-button{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: start;
+}
+.group-button a{
+    padding: 14px 35px;
+    background-color: #222;
+    color: #fff;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+    border-radius: 4px;
 
-
-
-
-
-
+}
+.group-blog-1:last-child{
+    flex-direction: row-reverse;
+}
+@media only screen and (max-width:979px) {
+    .group-blog-1{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .group-blog-1:last-child{
+        flex-direction: column;
+    }
+    .group-img{
+        width: 100%;
+    }
+    .group-lable{
+        width: 100%;
+    }
+    .group-lable-1{
+        text-align: start;
+        width: fit-content;
+    }
+    .group-lable {
+        align-items: start;
+    }
+}
+@media only screen and (max-width:410px) {
+    .group-lable-1{
+        font-size: 1.3rem;
+    }
+    .group-lable-2{
+        font-size: 0.9rem;
+    }
+    .group-button a{
+        font-size: 1rem;
+    }
+}
 
 
 
