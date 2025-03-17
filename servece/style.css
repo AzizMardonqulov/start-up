@@ -39,7 +39,6 @@ a{
 .navbar ul{
     position: static;
     display: flex;
-    margin-top: 1rem;
     gap: 1rem;
 }
 .navbar ul li{
