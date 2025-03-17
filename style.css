@@ -560,8 +560,8 @@ a{
 /* futer */
 .futer{
     width: 100%;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color:rgba(116, 198, 157, 1) ;
     padding-left:135px;
     padding-right: 135px;
