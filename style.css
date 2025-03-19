@@ -126,12 +126,25 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 8rem;
+    padding-top: 5rem;
     padding-bottom: 9rem;
+    transform: scale(1);
+    animation: banerlable  linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
 }
 .baner-lable{
     width: 50%;
     height: 100%;
+}
+@keyframes banerlable  {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+    
 }
 .baner-lable-1{
     font-family: Work Sans;
@@ -270,7 +283,19 @@ a{
     flex-direction: column;
     gap: 2rem;
     margin-bottom: 3rem;
+    transform: scale(1);
+    animation: banerImg linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
+@keyframes banerImg {
+    from{
+        transform:scale(0);
+    }to{
+        transform: scale(1);
+    }
+}
+
 .patern-lable{
     width: 100%;
     height: fit-content;
@@ -349,6 +374,10 @@ a{
 }
 .group-img img{
     width: 100%;
+    transform: translateX(0px);
+    animation: groupImg linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 .group-lable{
     width: 40%;
@@ -357,6 +386,25 @@ a{
     align-items: center;
     justify-content: start;
     gap: 1.5rem;
+    transform: translateX(0px);
+    animation: groupLable linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+@keyframes groupImg {
+    from{
+        transform:translateX(-100px);
+    }to{
+        transform:translateX(0px);
+    }
+}
+@keyframes groupLable {
+    from{
+        transform: translateX(100px);
+    }
+    to{
+        transform: translateX(0);
+    }
 }
 .group-lable-1{
     font-family: Crimson Text;
@@ -536,6 +584,38 @@ a{
 .teambutton:hover a{
     color: #222;
     background-color: #fff;
+}
+.team-blog-1:first-child{
+    transform: scale(1);
+    animation: team linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+.team-blog-1:nth-child(2){
+    transform: scale(1);
+    animation: team linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 25%;
+}
+.team-blog-1:nth-child(3){
+    transform: scale(1);
+    animation: team linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+.team-blog-1:last-child{
+    transform: scale(1);
+    animation: team linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+@keyframes team {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
 }
 
 
